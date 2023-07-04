@@ -1,0 +1,101 @@
+.footer{
+  padding: 0px 20px;
+}
+.footer-duvida{
+font-family: 'Nunito', sans-serif;
+color: #000;
+font-size: 21px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: -0.667px;
+}
+.footer-acesse{
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 19px;
+}
+.footer-colum-1{
+  width: 60% !important;
+}
+.footer-colum-2{
+  width: 40% !important;
+}
+.footer-baixe{
+  color: #000;
+font-size: 14px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+margin-top: 10px;
+}
+.footer-store-container{
+  float: right;
+}
+.footer-store{
+  width: 98px;
+  height: 29px;
+}
+
+.footer-social-media{
+  width: 28px;
+}
+.footer-colum-logo {
+  width: 63% !important;
+  display: inline-block;
+}
+.footer-colum-social{
+  width: 37% !important;
+  display: inline-block;
+}
+.footer-size-icon-social{
+  width: 28px;
+}
+
+
+@media (max-width: 581px) {
+  .footer-store-container{
+    float: left;
+  }
+  .footer-colum-1{
+    width: 90% !important;
+  }
+  .footer-colum-2{
+    width: 100% !important;
+  }
+  .footer-colum-logo{
+    width: 50% !important;
+  }
+  .footer-colum-social{
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .footer-duvida{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .footer-acesse{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 0;
+  }
+  .footer-store-container{
+    float: left;
+  }
+  .footer-colum-1{
+    width: 100% !important;
+  }
+  .footer-colum-2{
+    width: 100% !important;
+  }
+  .footer-colum-logo{
+    width: 100% !important;
+  }
+  .footer-colum-social{
+    width: 100% !important;
+  }
+}

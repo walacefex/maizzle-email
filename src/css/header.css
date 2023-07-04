@@ -1,0 +1,29 @@
+.header-informations{
+  width: 70% !important;
+  display: inline-block !important;
+}
+.header-informations--categorie{
+  margin-right: 32px;
+
+}
+@media (max-width: 640px) {
+  .header-informations{
+    width: 65% !important;
+    display: inline-block !important;
+  }
+  .header-informations--categorie{
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 624px) {
+  .header-informations-breakline{
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-informations{
+    width: 70% !important;
+  }
+}
